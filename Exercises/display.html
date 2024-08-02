@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Display</title>
+  <style>
+    .name-textbox, .email-textbox {
+      display: block;
+      margin-bottom: 5px;
+    }
+    .survey {
+      width: 200px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .yes-button, .no-button {
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+  <p>2 text boxes</p>
+  <form action="">
+    <input class="name-textbox" type="text" name="name" placeholder="Name">
+    <input class="email-textbox" type="email" name="email" placeholder="Email">
+  </form>
+  <p>Paragraph and 2 buttons on the same line</p>
+  <p class="survey">Thanks for chatting with our customer support. Would you like to take our quick survey?</p>
+  <input class="yes-button" type="button" value="Yes">
+  <input class="no-button" type="button" value="No">
+</body>
+</html>

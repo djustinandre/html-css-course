@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cat Photo</title>
+  <style>
+    img {
+      width: 200px;
+    }
+    .rounded-corners {
+      border-radius: 15px;
+    }
+    .square {
+      height: 200px;
+      object-fit: cover;
+      object-position: center;
+    }
+    .circle {
+      height: 200px;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 100px;
+    }
+  </style>
+</head>
+<body>
+  <p>Rounded Corners</p>
+  <img class="rounded-corners" src="cat.jpg" alt="A cat">
+  <p>Square</p>
+  <img class="square" src="cat.jpg" alt="A cat">
+  <p>Circle</p>
+  <img class="circle" src="cat.jpg" alt="A cat">
+</body>
+</html>

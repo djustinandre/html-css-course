@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Font</title>
+  <style>
+    .tahoma {
+      font-family: Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: bold;
+      font-size: 30px;
+    }
+    .arial, .arial-2 {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .arial .main {
+      font-weight: bold;
+      font-size: 26px;
+      margin-bottom: 8px;
+    }
+    .arial .sub {
+      color: red;
+      font-style: italic;
+      font-size: 18px;
+      margin-top: 0;
+    }
+    .verdana p, .verdana button {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .verdana .main {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 3px;
+    }
+    .verdana .sub {
+      color: rgb(100, 100, 100);
+      margin-bottom: 18px;
+    }
+    .verdana .description {
+      width: 300px;
+      line-height: 22px;
+      margin-bottom: 18px;
+    }
+    .verdana .get-started {
+      background-color: rgb(63, 151, 63);
+      color: white;
+      border: none;
+      border-radius: 6px;
+      padding: 8px 16px;
+      cursor: pointer;
+    }
+    .arial-2 {
+      text-align: center;
+    }
+    .arial-2 .main {
+      font-size: 32px;
+      font-weight: bold;
+      margin-bottom: 0;
+    }
+    .arial-2 .sub {
+      font-size: 18px;
+    }
+    .arial-2 .learn-more {
+      color: rgb(58, 108, 199);
+      text-decoration: none;
+    }
+    .arial-2 .learn-more:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <p class="tahoma">This is Tahoma Font</p>
+  <hr>
+  <div class="arial">
+    <p class="main">Biggest Deals of the Year!</p>
+    <p class="sub">Sales end Tuesday</p>
+  </div>
+  <hr>
+  <div class="verdana">
+    <p class="main">HTML CSS Course</p>
+    <p class="sub">Beginner to Pro</p>
+    <p class="description">In this course, we'll learn the skills you need to become a developer.</p>
+    <button class="get-started">Get Started</button>
+  </div>
+  <hr>
+  <div class="arial-2">
+    <p class="main">Shopping for your business?</p>
+    <p class="sub">See how Apple at Work can help.</p>
+    <a href="https://apple.com" class="learn-more">Learn more &gt;</a>
+  </div>
+</body>
+</html>
