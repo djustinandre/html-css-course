@@ -1,0 +1,42 @@
+.subscribe-button {
+  background-color: #cc0000;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  height: 36px;
+  width: 105px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+.subscribe-button:hover {
+  opacity: 0.8;
+}
+.join-button {
+  text-transform: uppercase;
+  background-color: white;
+  color: #065fd4;
+  border-color: #065fd4;
+  border-style: solid;
+  border-width: 1px;
+  height: 36px;
+  width: 62px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.join-button:hover {
+  background-color: #065fd4;
+  color: white;
+}
+.tweet-button {
+  text-transform: capitalize;
+  background-color: #1d9bf0;
+  color: white;
+  border: none;
+  height: 36px;
+  width: 74px;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 8px;
+}
