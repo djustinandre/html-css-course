@@ -1,0 +1,42 @@
+.card {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  width: 200px;
+  display: inline-block;
+  margin: 10px 8px;
+}
+
+.profile-pic {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 8px;
+  margin-bottom: 4px;
+}
+
+.info {
+  color: rgb(100, 100, 100);
+  margin-left: 8px;
+  margin-bottom: 12px;
+}
+
+.add {
+  background-color: rgb(24, 119, 242);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-left: 8px;
+  margin-bottom: 10px;
+}
